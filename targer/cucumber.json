@@ -1,0 +1,116 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 165900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforevalidation()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login",
+        "after": [
+          {
+            "result": {
+              "duration": 45300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aftervalidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 253325300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User is on netbanking landing page",
+            "match": {
+              "location": "MyStepdef.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1331600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User sign up with following details",
+            "match": {
+              "location": "MyStepdef.user_sign_up_with_following_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "jenny",
+                  "abcd",
+                  "jenny@abc.com",
+                  "Australia",
+                  "452644"
+                ],
+                "line": 27
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 241800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Home page is populated",
+            "match": {
+              "location": "MyStepdef.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2332700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Cards displayed are \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "false",
+                  "offset": 21
+                }
+              ],
+              "location": "MyStepdef.cards_displayed_are(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@MobileTest"
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "Log1.feature"
+  }
+]

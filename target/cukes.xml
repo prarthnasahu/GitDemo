@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="22.933609">
+    <testcase classname="Search and place order for vegetables" name="Search for items and validate results" time="6.256334">
+        <system-out><![CDATA[Given User is on Greencart Landing page.....................................passed
+When User searched for Cucumber vegetable...................................passed
+Then "Cucumber" results are displayed.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search and place order for vegetables" name="Search for items and then move to checkout page" time="5.596927">
+        <system-out><![CDATA[Given User is on Greencart Landing page.....................................passed
+When User searched for Brinjal vegetable....................................passed
+And Added items to cart.....................................................passed
+And user proceeded to Checkout page for purchase............................passed
+Then verify selected Brinjal items are displayed on checkout page...........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search and place order for vegetables" name="Search for items and then move to checkout page" time="5.441083">
+        <system-out><![CDATA[Given User is on Greencart Landing page.....................................passed
+When User searched for Brinjal vegetable....................................passed
+And Added items to cart.....................................................passed
+And user proceeded to Checkout page for purchase............................passed
+Then verify selected Brinjal items are displayed on checkout page...........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search and place order for vegetables" name="Search for items and then move to checkout page 2" time="5.639265">
+        <system-out><![CDATA[Given User is on Greencart Landing page.....................................passed
+When User searched for Beetroot vegetable...................................passed
+And Added items to cart.....................................................passed
+And user proceeded to Checkout page for purchase............................passed
+Then verify selected Beetroot items are displayed on checkout page..........passed
+]]></system-out>
+    </testcase>
+</testsuite>
